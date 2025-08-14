@@ -2,7 +2,7 @@ services:
   - type: web
     name: r3f-immersive-explorer
     env: static
-    buildCommand: npm ci && npm run build
+    buildCommand: bash render-build.sh
     staticPublishPath: dist
     routes:
       - type: rewrite
