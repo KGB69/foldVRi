@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve -s dist"
   },
   "dependencies": {
     "@react-three/drei": "^10.6.1",
@@ -14,6 +15,7 @@
     "@react-three/xr": "^6.6.22",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "serve": "^14.2.1",
     "three": "^0.179.1"
   },
   "devDependencies": {
