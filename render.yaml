@@ -4,6 +4,7 @@ services:
     env: node
     buildCommand: bash render-build.sh
     startCommand: npm start
+    port: 10000
     routes:
       - type: rewrite
         source: /*
