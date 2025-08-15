@@ -7,9 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>R3F Immersive Explorer</title>
     <!-- Tailwind CSS is now included in the build process -->
-<link rel="stylesheet" href="/index.css">
-<script src="/debug.js"></script>
-</head>
+    <link rel="stylesheet" href="/index.css">
+    <!-- Load React and ReactDOM directly from CDN to ensure they're available -->
+    <script crossorigin src="https://unpkg.com/react@18.2.0/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js"></script>
+    <!-- Debug script to help diagnose issues -->
+    <script src="/debug.js"></script>
+  </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
