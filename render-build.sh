@@ -31,7 +31,7 @@ fi
 # Install dependencies with detailed logging
 echo "==============================================="
 echo "Installing dependencies..."
-npm ci --verbose --legacy-peer-deps || { echo "❌ npm ci failed"; exit 1; }
+npm install --verbose --legacy-peer-deps || { echo "❌ npm install failed"; exit 1; }
 
 # Run build with detailed logging
 echo "==============================================="
